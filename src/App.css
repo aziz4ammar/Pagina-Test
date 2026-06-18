@@ -1,6 +1,31 @@
+/* Ensure the main app wrapper allows relative tracking if needed */
 .App {
-  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
 
+/* Target the wrapper div of your Back component */
+.App > div:first-child {
+  position: fixed; /* Keeps it pinned to the screen background while scrolling */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;     /* Sends it to the very back layer */
+  pointer-events: none; /* Allows clicks to pass through it to your cards */
+}
+
+/* Ensure the SVG inside scales nicely to fill the screen */
+.App > div:first-child svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Force your cards and navigation layer to sit above the background */
+.content-container {
+  position: relative;
+  z-index: 1;
 }
 /* navbar settings */
 #navimg{
@@ -38,7 +63,7 @@
 #blue {
   fill: none;
   opacity: 0.15;
-  stroke: #06A1C4;
+  stroke: #3e4344;
   stroke-width: 12;
   stroke-miterlimit:10;
   animation: show 4s;
@@ -50,7 +75,7 @@
 #light-blue {
   fill: none;
   opacity: 0.15;
-  stroke: #06A1C4;
+  stroke: #6a6e6f;
   stroke-width: 6;
   stroke-miterlimit:10;
   stroke-dasharray: 200;
@@ -80,6 +105,9 @@
     }
 .nbt:hover{
   background-color: white;
+}
+#cont{
+  z-index: -999;
 }
 
 

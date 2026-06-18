@@ -2,7 +2,7 @@ import React from 'react'
 
 const back = () => {
   return (
-    <div>
+    <div id='cont'>
       <svg version="1.1" id="home-anim" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1820 1080" style={{ enableBackground: "new 0 0 1820 1080" }} xmlSpace="preserve">
 
