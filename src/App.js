@@ -30,7 +30,7 @@ function App() {
     <Row className="g-4 mb-4">
       <Col xs={12} sm={6} md={3}>
         <Card border="danger" className="h-100 p-3">
-          <Card.Header className='fs-4' >Header 1</Card.Header>
+          <Card.Header id='fs' className='fs-4' >Header 1</Card.Header>
           <Card.Body>
             <Card.Title>Primary Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -40,7 +40,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="dark" className="h-100 p-3">
-          <Card.Header className='fs-4' >Header 2</Card.Header>
+          <Card.Header id='fs' className='fs-4' >Header 2</Card.Header>
           <Card.Body>
             <Card.Title>Secondary Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -50,7 +50,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="danger" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 3</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 3</Card.Header>
           <Card.Body>
             <Card.Title>Success Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -60,7 +60,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="dark" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 4</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 4</Card.Header>
           <Card.Body>
             <Card.Title>Danger Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -73,7 +73,7 @@ function App() {
     <Row className="g-4">
       <Col xs={12} sm={6} md={3}>
         <Card border="danger" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 5</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 5</Card.Header>
           <Card.Body>
             <Card.Title>Warning Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -83,7 +83,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="dark" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 6</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 6</Card.Header>
           <Card.Body>
             <Card.Title>Info Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -93,7 +93,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="danger" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 7</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 7</Card.Header>
           <Card.Body>
             <Card.Title>Dark Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>
@@ -103,7 +103,7 @@ function App() {
 
       <Col xs={12} sm={6} md={3}>
         <Card border="dark" className="h-100 p-3">
-          <Card.Header className='fs-4'>Header 8</Card.Header>
+          <Card.Header id='fs' className='fs-4'>Header 8</Card.Header>
           <Card.Body>
             <Card.Title>Light Card Title</Card.Title>
             <Card.Text>Some quick example text to build on the card title.</Card.Text>

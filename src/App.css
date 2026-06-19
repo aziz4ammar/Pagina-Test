@@ -51,7 +51,7 @@
 #red {
   fill: none;
   opacity: 0.15;
-  stroke: #CE1B5F;
+  stroke: rgb(255, 6, 6);
   stroke-width: 12;
   stroke-miterlimit:10;
   animation: show 4s;
@@ -109,6 +109,8 @@
 #cont{
   z-index: -999;
 }
-
+#fs{
+  background-color: rgba(185, 16, 16, 0.614);
+}
 
 

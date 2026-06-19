@@ -18,7 +18,7 @@ const main = () => {
             <Card border="danger" className="h-100">
               <Card.Img variant="top" src={aff} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title id='fs'>Card title</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in
                   to additional content. This content is a little bit longer.
@@ -34,7 +34,7 @@ const main = () => {
             <Card border="dark" className="h-100">
               <Card.Img variant="top" src={aff} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title id='fs'>Card title</Card.Title>
                 <Card.Text>
                   This card has supporting text below as a natural lead-in to
                   additional content.
@@ -50,7 +50,7 @@ const main = () => {
             <Card border="danger" className="h-100">
               <Card.Img variant="top" src={aff} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title id='fs'>Card title</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in
                   to additional content.
